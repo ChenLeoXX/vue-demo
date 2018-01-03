@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.active {
+    font-size: 16px;
+    text-decoration-line:line-through; 
+    text-decoration-color: #f00;
+    text-decoration-style: solid;
+}
+.newTask >input {
+  width:300px;
+  text-align: center;
+  border-radius: 5px;
+  height: 26px;
+  display: block;
+  margin:0px auto;
+}
+.status{
+    display: inline-block;
+}
+.newTask,.todos {
+    margin: 50px auto;
+}
+#app {
+    width: 1000px;
+    margin: 30px auto;
+}
+.todos li {
+   width:700px;
+   margin:0 auto;
+}
+.todos .c-time {
+    display: inline-block;
+    width:241px;
+    padding-left: 15px;
+}
+.delete-btn {
+    color: #fff;
+    display: inline-block;
+    padding: 3px 9px;
+    border-radius: 3px;
+    background: #ff002e;
+    border: none;
+    margin-top:-2px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background:#f38296;
+}
+.text{
+    display: inline-block;
+    width:250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+}
